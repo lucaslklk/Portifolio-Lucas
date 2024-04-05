@@ -1,0 +1,166 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1,
+h2 {
+    font-family: 'Chakra Petch', Arial, Helvetica, sans-serif;
+
+}
+
+.header {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-shadow: 0px 0px 10px 0px black;
+
+
+}
+
+.photo {
+    margin: 0;
+    padding: 0;
+    background-image: url(Imagens/pexels-luis-gomes-546819.jpg);
+    background-size: cover;
+    margin: 0;
+    height: 300px;
+    opacity: 0.58;
+
+}
+
+.header h1 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 450%;
+}
+
+.header h2 {
+    margin: 40px;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    color: black;
+    font-size: 30px;
+}
+
+
+
+.bar {
+
+    padding-top: 10px;
+    margin: 10px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    position: relative;
+    font-size: 17.5px;
+    
+}
+
+.bar li {
+    list-style: none;
+    position: absolute;
+    bottom: 70px;
+    
+}
+
+ul {
+    display: inline;
+
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Chakra Petch', Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    
+
+}
+
+a:hover {
+    border-bottom: solid black 5px;
+    border-radius: 3px;
+   
+
+
+}
+
+.bar .button-home {
+    margin: 20px;
+    left: 2%;
+    box-sizing: border-box;
+}
+
+
+.bar ul {
+    position: relative;
+    left:100px;
+   
+}
+
+
+.about img {
+    width: 25%;
+    position: absolute;
+    top: 350px;
+    left: 70%;
+
+
+}
+
+
+.about {
+    padding: 20px;
+}
+
+.about h2 {
+    margin-left: 50px;
+}
+
+
+.about p {
+    box-sizing: border-box;
+    padding: 50px;
+    margin-left: 40px;
+    text-align: justify;
+    text-indent: 20px;
+    width: 65%;
+    height: 350px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+
+
+}
+
+.card {
+    box-shadow: 8px 8px 7px 7px rgba(53, 50, 123, 0.30);
+    overflow: auto;
+}
+
+.footer {
+    color: black;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px black;
+    font-family: 'Chakra Petch', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    list-style: none;
+font-size: 12px;
+}
+
+.footer p {
+    padding: 5px;
+}
+
